@@ -1,0 +1,35 @@
+body {
+  background: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1350&q=80') 
+              no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background: rgba(30, 41, 59, 0.85); /* dark glass effect */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.25);
+  display: inline-block;
+  backdrop-filter: blur(6px);
+}
+
+button {
+  margin-top: 20px;
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #0ea5e9;
+  transform: scale(1.05);
+}
